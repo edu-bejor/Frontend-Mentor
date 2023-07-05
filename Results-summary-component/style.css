@@ -21,16 +21,9 @@ main {
 .geral {
     width: 40%;
     height: 50%;
-    border: 1px solid red;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-}
-
-.esq {
-    height: 100%;
-    width: 50%;
-    border-radius: 10px;
 }
 
 .dir {
@@ -52,13 +45,10 @@ main {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    padding-top: 20px;
-    
+    padding-top: 20px;    
 }
 
-.inputs {
-    
-    
+.inputs {    
     height: 10%;
     width: 80%;
     display: flex;
@@ -83,3 +73,24 @@ main {
     margin-top: 20px;
 }
 
+.esq {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+    background-image: linear-gradient(#7857ff, #2e2be9);
+    
+}
+
+.conteudoesq{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    
+}
+
+#resultado {
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    color: white;
+    font-size: 20px;
+}
