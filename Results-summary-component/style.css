@@ -10,100 +10,76 @@
     box-sizing: border-box;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 600px) {
-
-    main {
-        width: 100%;
-        min-height: 100vh;
-        font-family: "Hanken Grotesk";
-    }
-
-    .result {
-        width: 100%;
-        height: 375px;
-        background: linear-gradient(to bottom, #5024FF 60%, #2E2BE9);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 20px;
-        border-radius: 0 0 30px 30px;
-        font-family: "Arial", sans-serif;
-    }
-
-    .result p {
-        margin-top: 20px;
-        color: #9595af;
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    .circle {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        background: linear-gradient(#1c39bb, #324ab2);
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-              
-    }
-
-
-    .circle h1 {
-        color: white;
-        font-size: 55px;
-        
-    }
-
-    .circle p{
-        margin-top: 0;
-    }
-
-    .text {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: 90%;        
-    }
-
-    .text h1 {
-        color: white;
-        font-weight: bold;
-    }
-
-    .text p {
-        font-size: 18px;
-    }
-
-    .summary {
-        width: 90%;
-        padding: 20px 0 0 35px;
-    }
-    .conteudo{
-        border: 1px solid black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        
-    }
-    .titulo{
-        border-radius: 10px;
-        background: red;
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        /*gap: 150px; */
-        
-    }
-
-    .teste{
-        display: flex;
-        flex-direction: row;        
-        
-    }
-
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.geral {
+    width: 40%;
+    height: 50%;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.esq {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.dir {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#titulo {
+    color: black;
+    font-weight: bold;
+    margin: 20px 0 20px 20px;
+}
+
+.inputsarea{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.inputs {
+    
+    
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 10px;
+}
+
+.tituloinput {
+    display: flex;
+    gap: 5px
+}
+
+.inputsarea button {
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background: #303b5a;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
